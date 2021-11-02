@@ -1,0 +1,116 @@
+body {
+	font-family: Arial, serif;
+	background-color:  #ffeed05e;
+	text-align: center;
+	font-family: 'Zen Kaku Gothic Antique', sans-serif;
+}
+
+a {
+	padding: 10px;
+}	
+
+h1 {
+	font-weight:  bolder;
+	font-size: 26px;
+	color: darkred;
+	font-family: Indie Flower;
+}
+
+.interests {
+	margin-bottom: 15px;
+	margin-right: 10px;
+	border-radius: 15%;
+	width:  120px;
+	height:  120px;
+	border-style: dotted;
+	border-color: lightgoldenrodyellow;
+	padding: 5px;
+}
+
+.profile-picture {
+	border-radius: 50%;
+	width:  120px;
+	height:  120px;
+	border-style: dotted;
+	border-color: lightgoldenrodyellow;
+}
+
+h2 {
+	color:  darkred;
+	font-size: 20px;
+	font-family: Indie Flower;
+}
+
+ul li {
+	list-style: none;
+}
+
+ul {
+  border-style: dotted;
+  border-radius: 10px;
+  border-color: black;
+  padding: 0px;
+  background: white;
+  background-clip: padding-box;
+  width: 200px;
+  margin: 0 auto;
+}
+
+ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 18px;
+	text-align: center;
+}
+
+a {
+	color: black;
+}
+
+.container {
+	background-color: rgba(185,111,123, 0.2);
+	max-width: 529px;
+	padding:  30px;
+	border-radius: 10px;
+	margin: auto;
+}
+
+.card-white {
+	background: white;
+	border-radius: 10px;
+	box-shadow: 6px 16px 24px rgba(0,0,0,0.1);
+	padding: 5px;
+	margin-bottom: 30px;
+}
+
+/*.all {
+	align-content: center;
+	margin: 0 auto;
+	width: 600px;
+	padding: 15px;
+	border: dotted;
+	color: black;
+	border-radius: 10px;
+}
+
+*/
+
+.button-grey {
+	text-decoration: none;
+	background-color: lightgoldenrodyellow;
+	border-radius: 10px;
+}
+
+.button-grey:hover {
+	background-color: lightgray;
+}
+
+.pad-bot {
+	padding-bottom: 16px;
+}
+
+@media (max-width: 800px) {
+	.container {
+		/*background: #B96F7B;*/
+		background: rgba(185,111,123, 0.2)}
+		}
